@@ -2,6 +2,12 @@ const inquirer = require('inquirer');
 const db = require('./lib/Database');
 require('console.table');
 
+// Clear console and display welcome message
+console.clear();
+console.log('\n=== StaffSage ===');
+console.log('Employee Management System\n');
+console.log('Welcome! Let\'s manage your workforce with a touch of magic! ✨\n');
+
 async function mainMenu() {
     const { choice } = await inquirer.prompt([
         {
