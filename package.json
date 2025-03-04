@@ -1,0 +1,15 @@
+{
+  "name": "staffsage",
+  "version": "1.0.0",
+  "description": "A command-line application for managing employee data and organizational structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1",
+    "console.table": "^0.10.0"
+  }
+} 
